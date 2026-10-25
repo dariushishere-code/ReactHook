@@ -1,0 +1,92 @@
+.user-list h2 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.add-form input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.add-form input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.add-form button {
+  padding: 10px 18px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.add-form button:hover {
+  background: #3a7bc8;
+}
+
+.users {
+  list-style: none;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.user-item:last-child {
+  border-bottom: none;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.user-name {
+  font-weight: 500;
+  color: #222;
+}
+
+.user-email {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}
